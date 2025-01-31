@@ -5,7 +5,7 @@ body{
 
 header{
     position: fixed;
-    background-color: #e30c0d;
+    background-color: #00eb7c;
     top:0;
     left:0;
     width: 100%;
@@ -15,7 +15,7 @@ header{
 }
 aside{
     position: fixed;
-    background-color: #fceadc;
+    background-color: #00fc8f;
     top:50px;
     left:0;
     width: 15%;
@@ -34,8 +34,8 @@ section{
 }
 footer{
     position: fixed;
-    background-color: #fcba8e;
-    color: white;
+    background-color: #00eb7c;
+    color: black;
     text-align: center;
     
     left:0;
@@ -55,7 +55,7 @@ nav{
     line-height: 50px;
 }
 .nav-link{
-    color: #fce0c5;
+    color: white;
     text-decoration: none;
 }
 .nav-menu{
@@ -80,13 +80,32 @@ nav{
     background-color: #e36f56;
 }
 .section2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 50px;
+    color:black;
+}
+.letra{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.centrado{
+    text-align: center;
+    line-height: 25px;
+    color: #82827b;
+}
+.section2-home{
     position: fixed;
     background-color: #fcf5ec;
     top:50px;
-    left:15%;
-    width: 85%;
+    left:0;
+    width: 100%;
     bottom: 20px;
     padding: 10px;
-    overflow-y: scroll;
+    overflow-y: scroll; 
+    text-align: center;
 }
-
